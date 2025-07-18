@@ -1,0 +1,46 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #282c34;
+    color: white;
+    font-family: monospace;
+}
+
+#game-container {
+    text-align: center;
+    background-color: #333;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 255, 0, 0.5);
+}
+
+canvas {
+    border: 2px solid white;
+    background-color: black;
+    display: block;
+    margin: 10px auto;
+}
+
+#score {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+a {
+    color: lightblue;
+    text-decoration: none;
+    margin-top: 15px;
+    display: block;
+}
