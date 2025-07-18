@@ -1,0 +1,84 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #faf8ef;
+    font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
+    color: #776e65;
+}
+
+#game-container {
+    text-align: center;
+    background-color: #bbada0;
+    padding: 15px;
+    border-radius: 6px;
+    position: relative;
+}
+
+h1 {
+    font-size: 3.5em;
+    font-weight: bold;
+    margin: 0;
+    color: #776e65;
+}
+
+#score {
+    font-size: 1.8em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    background-color: #eee4da;
+    padding: 5px 10px;
+    border-radius: 3px;
+    display: inline-block;
+}
+
+#game-board {
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: repeat(4, 100px);
+    gap: 10px;
+    background-color: #bbada0;
+    padding: 10px;
+    border-radius: 6px;
+    margin-top: 15px;
+}
+
+.tile {
+    width: 100px;
+    height: 100px;
+    background-color: #cdc1b4;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #776e65;
+    transition: 100ms ease-in-out;
+    transition-property: transform;
+}
+
+/* タイルの色 (例) */
+.tile-2 { background-color: #eee4da; color: #776e65; }
+.tile-4 { background-color: #ede0c8; color: #776e65; }
+.tile-8 { background-color: #f2b179; color: #f9f6f2; }
+/* ...他の数字のタイル色も追加 */
+
+button {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    cursor: pointer;
+    background-color: #8f7a66;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+a {
+    color: #8f7a66;
+    text-decoration: none;
+    margin-top: 15px;
+    display: block;
+}
