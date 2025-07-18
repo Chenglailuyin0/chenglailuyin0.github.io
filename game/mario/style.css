@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #87CEEB; /* 空色 */
+    font-family: sans-serif;
+    color: #333;
+}
+
+#game-container {
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+canvas {
+    background-color: #5C9400; /* 地面の色 (仮) */
+    border: 2px solid #333;
+    display: block;
+    margin: 10px auto;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    cursor: pointer;
+    background-color: #FF5733; /* マリオっぽい色 */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+a {
+    color: #FF5733;
+    text-decoration: none;
+    margin-top: 15px;
+    display: block;
+}
